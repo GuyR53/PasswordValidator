@@ -2,6 +2,13 @@
 
 # Getting the parameter (password) from the terminal
 Password=$1
+
+# Checking if we got have to take the pass from a file and if so we take it
+if [ "$Password" = "-f" ]; then
+  File=$2
+  Password=$(<$File)
+fi
+
 OutMessage=""
 Flag=0
 
