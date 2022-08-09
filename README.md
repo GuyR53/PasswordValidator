@@ -1,4 +1,4 @@
-# BootCamp-week2
+# https://www.youtube.com/watch?v=rtIOpV_QU8Q
 ## Write a password validator script as described below:
 
 ## Write a bash script to validate password strength with the following requirements:
